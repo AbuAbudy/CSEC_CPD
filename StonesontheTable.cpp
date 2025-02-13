@@ -9,8 +9,6 @@ int main() {
     cin >> s;
     
     int count = 0;
-    
-    // Loop through the stones and check adjacent ones
     for (int i = 1; i < n; i++) {
         if (s[i] == s[i - 1]) {
             count++;
