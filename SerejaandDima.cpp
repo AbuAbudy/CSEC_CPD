@@ -5,7 +5,7 @@ int main() {
     int n;
     cin >> n;
 
-    int cards[1000]; // Assuming the maximum number of cards is 1000
+    int cards[1000];
     for (int i = 0; i < n; ++i) {
         cin >> cards[i];
     }
@@ -33,7 +33,7 @@ int main() {
             }
             right--;
         }
-        sereja_turn = !sereja_turn; // switch turns
+        sereja_turn = !sereja_turn;
     }
 
     cout << sereja_points << " " << dima_points << endl;
